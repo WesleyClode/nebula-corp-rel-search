@@ -55,7 +55,7 @@ Start the backend:
 ```bash
 python3 -m pip install -r requirements.txt
 cd corp-rel-backend
-export NG_ENDPOINTS="192.168.123.456:9669" # This should be your Nebula Graph Cluster GraphD Endpoint
+export NG_ENDPOINTS="127.0.0.1:9669" # This should be your Nebula Graph Cluster GraphD Endpoint
 python3 app.py
 ```
 
